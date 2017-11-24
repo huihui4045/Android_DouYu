@@ -3,6 +3,8 @@ package com.alizhezi.douyu.application;
 import android.app.Application;
 import android.content.Context;
 
+import com.alizhezi.douyu.utils.LogUtil;
+
 /**
  * Created by gavin
  * Time 2017/11/23  15:47
@@ -19,6 +21,8 @@ public class DYApplication extends Application {
         super.onCreate();
 
         context=getApplicationContext();
+
+        LogUtil.setLOG(true);
     }
 
     public static Context getContext() {
