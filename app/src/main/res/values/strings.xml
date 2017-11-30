@@ -41,4 +41,16 @@
     <string name="dy_login">斗鱼账号登录</string>
     <string name="wb_login">微博登录</string>
     <string name="qq_login">QQ登录</string>
+
+
+    <string name="home_navigation_home">首页</string>
+    <string name="home_navigation_live">直播</string>
+    <string name="home_navigation_video">视频</string>
+    <string name="home_navigation_follow">关注</string>
+    <string name="home_navigation_user">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

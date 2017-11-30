@@ -31,7 +31,7 @@ public class SplashActivity extends FullScreenActivity {
 
                 if (isFinishing()) return;
 
-                if (!isFirst) {
+                if (isFirst) {
 
                     intent = new Intent(SplashActivity.this, GuideActivity.class);
 
@@ -44,7 +44,7 @@ public class SplashActivity extends FullScreenActivity {
                 startActivity(intent);
 
 
-                onBackPressed();
+                finish();
 
             }
         }, 3000);
